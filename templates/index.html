@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Counter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2>Welcome to my game!</h2>
+    <h3>You have visited {{ count }} times</h3>
+    <p>Feeling like a double Take?  click the button below to add "2" to each count, for a "take-two..." bahahaha...lame, lame joke.</p>
+    <form action='/taketwo' method='post'>
+        <input type='submit' value='Plus 2, Yo.' name='plus_two'>
+    <p>Are you tired? Do you ever just need to hit the reset button in life?  Go ahead...hit it.</p>
+    <form action='/clear' method='get'>
+        <input type='submit' value='Finish Him...' name='clear'>
+    
+</body>
+</html>
